@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>RGB</title>
+</head>
+
+<body>
+    <div>
+            <p>
+                <h1> Cores RGB</h1>
+            </p>
+            <p class="R">(R) Vermelho:
+                <input type="range" name="inputRangeR" id="inputRangeR" min="0" max="255" tabindex="1" class="inputRange">
+                <input type="text" name="inputCodeR" id="inputCodeR" readonly class="viewCode" />
+
+
+            <p class="G">(G) Verde:
+                <input type="range" name="inputRangeG" id="inputRangeG" min="0" max="255" tabindex="2" class="inputRange">
+                <input type="text" name="inputCodeG" id="inputCodeG" readonly class="viewCode" />
+
+
+            <p class="B">(B) Azul:
+                <input type="range" name="inputRangeB" id="inputRangeB" min="0" max="255" tabindex="3" class="inputRange" >
+                <input type="text" name="inputCodeB" id="inputCodeB" readonly class="viewCode" />
+
+
+                <div id="boxColorPreview"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

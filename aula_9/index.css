@@ -1,0 +1,51 @@
+div {
+    position: absolute;
+    left: 40%;
+    top: 20%; 
+    border-radius: 30px;
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 300px;
+    height: auto;
+}
+
+
+.R {
+    color: red;
+    font-size: 20px;
+}
+
+.G {
+    color: green;
+    font-size: 20px;
+}
+
+
+.B {
+    color: blue;
+    font-size: 20px;
+}
+
+#inputRangeR{
+    margin-left: 1%;
+}
+
+#inputRangeG{
+    margin-left: 10%;
+}
+
+#inputRangeB{
+    margin-left: 13%;
+}
+
+
+h1 {
+    margin-left: 60px;
+}
+
+#inputCodeG,#inputCodeB,#inputCodeR{
+    text-align: center;
+    height: 10px;
+    width: 25px;
+}
